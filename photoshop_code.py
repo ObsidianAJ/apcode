@@ -176,7 +176,7 @@ crop= Button(root, text="crop", fg="purple", bg="teal", font=("Times New Roman",
 sepia_button = Button(root, text="sepia", fg="purple", bg="teal", font=("Times New Roman", 15), command=sepia)
 contrast = Button(root, text="contrast increase", fg="purple", bg="teal", font=("Times New Roman", 15), command=apply_contrast)
 save = Button(root, text="save image", fg="purple", bg="teal", font=("Times New Roman", 15),command=save_image)
-xtra_cred = Button(root, text="xtra cred farmer", fg="purple", bg="teal", font=("Times New Roman", 5),command=save_image)
+xtra_cred = Button(root, text="xtra cred farmer", fg="purple", bg="teal", font=("Times New Roman", 5),command=more_buttons)
 pick_image.place(x=10,y=10, width=200, height=20)
 contrast.place(x=10,y=35, width=200, height=20)
 invert.place(x=10,y=60, width=200, height=20)
