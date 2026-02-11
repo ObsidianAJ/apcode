@@ -9,9 +9,8 @@ def check_guess(pguess, wordleword):
     print(check_red(pguess, wordleword))
     print(check_yellow(pguess, wordleword))
     print(check_green(pguess, wordleword))
-    # check_red(pguess, wordleword)
-    # check_yellow(pguess, wordleword)
-    # check_green(pguess, wordleword)
+
+
 
 def check_green(pguess, wword):
     index = 0
@@ -51,9 +50,9 @@ def check_red(pguess, wword):
         gyx_index += 1
     return gyx
 
-words = open("wordbank.txt","r") #opens text file for reading
-wordbank = words.read() #stores contents of txt file in variable
-wordbank = wordbank.split() #place words into a list.
+words = open("wordbank.txt","r") 
+wordbank = words.read()
+wordbank = wordbank.split()
 all_words = wordbank
 round = 1
 gyx = [" ", " ", " ", " ", " "]
